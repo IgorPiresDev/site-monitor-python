@@ -1,12 +1,22 @@
-🧠 Aprendizados:
-Durante o desenvolvimento, superei desafios como:
+# 🚀 Monitor de Disponibilidade (DevOps Study)
 
-Manipulação de tipos: Corrigir erros de serialização JSON (conflitos entre a biblioteca time e variáveis de string).
+Este projeto foi desenvolvido como parte dos meus estudos em **Python** e **Infraestrutura (DevOps)**. O objetivo é monitorar o status de disponibilidade de diversos sites e registrar os dados de forma estruturada para futuras análises.
 
-Escopo e Identação: Organizar blocos try/except para garantir que o log fosse salvo mesmo em caso de erro de conexão.
+## 🛠️ O que o script faz:
+- Realiza requisições HTTP para uma lista de URLs pré-definidas.
+- Simula um navegador real usando `User-Agent` para evitar bloqueios simples.
+- **Logs Estruturados**: Salva o timestamp, a URL e o status code (ex: 200, 403) em um arquivo `logs.json`.
+- Roda em um loop contínuo com intervalo de 10 segundos entre as verificações.
 
-Controle de Versão: Uso de branches para testes de funcionalidades antes de integrá-las à versão estável (master).
+## 🧰 Tecnologias Utilizadas:
+- **Python 3**: Linguagem principal.
+- **Requests**: Biblioteca para chamadas HTTP.
+- **JSON**: Formato de saída para persistência de dados.
+- **Git/GitHub**: Controle de versão e gerenciamento de branches.
 
-Desenvolvido por Igor Aparecido Marque Pires 🎓
-
-Estudante de Ciência da Computação - UNINTER
+## 🚀 Como executar:
+1. Clone o repositório.
+2. Certifique-se de ter o Python instalado.
+3. Instale a biblioteca de dependência:
+   ```bash
+   pip install requests
