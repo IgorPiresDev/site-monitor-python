@@ -19,4 +19,4 @@ Este projeto foi desenvolvido como parte dos meus estudos em **Python** e **Infr
 2. Certifique-se de ter o Python instalado.
 3. Instale a biblioteca de dependência:
    ```bash
-   pip install requests
+   pip install requestspy-security-logs
